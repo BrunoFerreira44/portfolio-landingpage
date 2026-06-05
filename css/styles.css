@@ -554,10 +554,9 @@ section {
 
 .skill-fill {
     height: 100%;
-    width: 0;
+    width: 100%;
     background: linear-gradient(90deg, var(--green-dark), var(--green-primary));
     border-radius: 3px;
-    transition: width 1s ease;
 }
 
 /* ===== Projects ===== */

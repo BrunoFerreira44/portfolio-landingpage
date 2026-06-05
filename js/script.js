@@ -68,24 +68,6 @@ const observer = new IntersectionObserver(
 
 fadeElements.forEach(el => observer.observe(el));
 
-// ===== Skill bars animation =====
-const skillFills = document.querySelectorAll('.skill-fill');
-
-const skillObserver = new IntersectionObserver(
-    (entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const width = entry.target.getAttribute('data-width');
-                entry.target.style.width = width + '%';
-                skillObserver.unobserve(entry.target);
-            }
-        });
-    },
-    { threshold: 0.5 }
-);
-
-skillFills.forEach(bar => skillObserver.observe(bar));
-
 // ===== Counter animation =====
 const statNumbers = document.querySelectorAll('.stat-number');
 

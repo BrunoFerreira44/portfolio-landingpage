@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☕ Bruno Ferreira | Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">&lt;bfer/&gt;</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Olá, eu sou</p>
+            <h1 class="hero-name">Bruno Ferreira</h1>
+            <h2 class="hero-title">Desenvolvedor BackEnd — Java & Spring Boot</h2>
+            <p class="hero-description">
+                Solucionador de problemas e apaixonado por tecnologia. Codar é um compromisso com o aprendizado contínuo!
+            </p>
+            <div class="hero-buttons">
+                <a href="https://www.linkedin.com/in/-bruno-ferreira/" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/BrunoFerreira44" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.youtube.com/@bferx" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fab fa-youtube"></i> YouTube</a>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="code-block">
+                <span class="code-line"><span class="code-keyword">const</span> <span class="code-var">dev</span> = {</span>
+                <span class="code-line">&nbsp;&nbsp;nome: <span class="code-string">"Bruno Ferreira"</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;idade: <span class="code-string">27</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;local: <span class="code-string">"Santo André - SP"</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;café: <span class="code-keyword">true</span></span>
+                <span class="code-line">};</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/Foto-Linkedin-3x4.jpg" alt="Bruno Ferreira" class="about-photo">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Engenheiro de Software Backend com sólida experiência no ecossistema Java e Spring Boot, focado no desenvolvimento de microsserviços escaláveis e sistemas distribuídos. Atuo na construção de arquiteturas modernas, utilizando Arquitetura Hexagonal e princípios SOLID para entregar soluções de alta qualidade, fácil manutenção e baixo acoplamento.
+                    </p>
+                    <p>
+                        Tenho vivência em ambientes de alta disponibilidade, lidando com integração entre sistemas de maneira síncrona (Feign Clients) e assíncrona (Azure Service Bus e Apache Kafka). Além do desenvolvimento, participo ativamente do ciclo de entrega contínua (CI/CD) com GitHub Actions e ArgoCD, garantindo a saúde e qualidade do código através de ferramentas como SonarQube. Atuo em times de alta performance sob as metodologias Agil e Scrum, utilizando Jira e Confluence para garantir a transparência do fluxo de trabalho e a qualidade da documentação e entregas.
+                    </p>
+                    <p>
+                        Sou movido por desafios técnicos e possuo “visão de dono”, buscando sempre otimizar processos e propor melhorias arquiteturais que tragam agilidade a squad e ao negócio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Experiência</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="experience-info">
+                        <h3>Setor Bancário</h3>
+                        <p>Desenvolvimento de sistemas e microsserviços para o ecossistema financeiro, lidando com alta disponibilidade, segurança e integrações críticas.</p>
+                    </div>
+                    <div class="experience-stat">
+                        <span class="stat-number" data-target="1">0</span><span>+</span>
+                        <span class="stat-label">Anos</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <div class="experience-info">
+                        <h3>Setor de Telecomunicações</h3>
+                        <p>Atuação em sistemas de larga escala para operadoras, com foco em integração de plataformas, automação de processos e qualidade de entrega.</p>
+                    </div>
+                    <div class="experience-stat">
+                        <span class="stat-number" data-target="7">0</span><span>+</span>
+                        <span class="stat-label">Anos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-extras">
+                <div class="extra-stat">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="stat-number" data-target="8">0</span><span>+</span>
+                    <span class="stat-label">Anos de estudos</span>
+                </div>
+                <div class="extra-stat">
+                    <i class="fas fa-bug"></i>
+                    <span class="stat-number" data-target="922797600">0</span><span>+</span>
+                    <span class="stat-label">Bugs resolvidos</span>
+                </div>
+                <div class="extra-stat">
+                    <i class="fas fa-ghost"></i>
+                    <span class="stat-number" data-target="0">0</span>
+                    <span class="stat-label">Bugs gerados (👀)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-java"></i></div>
+                    <h3>Java</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Spring Boot</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>SQL & NoSQL</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                    <h3>Docker</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-sync-alt"></i></div>
+                    <h3>CI/CD</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+                    <h3>Azure</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                    <h3>AWS</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Arq. Hexagonal</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Microsserviços</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-jira"></i></div>
+                    <h3>Jira</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Shell</h3>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Jejum de Títulos</h3>
+                        <p>Aplicação que calcula em tempo real há quantos dias cada grande clube brasileiro está sem conquistar um título. Backend em Spring Boot com MySQL e frontend servido via Nginx, tudo containerizado com Docker Compose.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/BrunoFerreira44/jejum-de-titulos" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Consulta Tabela FIPE</h3>
+                        <p>Projeto Java com Spring Boot que consome a API pública da Tabela FIPE para obter informações históricas de veículos, gerando relatórios como top 10 mais baratos, mais caros, modelos mais antigos e mais novos.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>API REST</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/BrunoFerreira44/tabelafipe-spring-boot" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>GuessTheWord</h3>
+                        <p>Jogo no estilo "Mega Senha" onde o jogador tenta acertar a palavra. Desenvolvido com HTML, CSS e JavaScript puro, otimizado para mobile e hospedado na Vercel.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                            <span>HTML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/BrunoFerreira44/GuessTheWord" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <p class="contact-subtitle">
+                Vamos conversar? Me encontre por aqui.
+            </p>
+            <div class="contact-simple">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>E-mail</h4>
+                        <a href="mailto:brunoferreira1999@live.com">brunoferreira1999@live.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Localização</h4>
+                        <p>Santo André - SP, Brasil</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/BrunoFerreira44" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/-bruno-ferreira/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/brunon__" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@bferx" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Bruno Ferreira. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

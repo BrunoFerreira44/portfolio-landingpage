@@ -219,7 +219,8 @@ img {
     flex-direction: column;
     gap: 6px;
     box-shadow: 0 0 40px var(--green-glow);
-    animation: float 6s ease-in-out infinite;
+    animation: slideInRight 1.75s ease-in-out forwards, float 6s ease-in-out 1.75s infinite;
+    opacity: 0;
 }
 
 .code-line {
@@ -241,6 +242,28 @@ img {
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-12px); }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* ===== Buttons ===== */
@@ -779,6 +802,8 @@ footer p {
     .code-block {
         font-size: 0.8rem;
         padding: 20px 24px;
+        text-align: left;
+        animation: slideInUp 1.75s ease-in-out forwards, float 6s ease-in-out 1.75s infinite;
     }
 
     .nav-toggle {

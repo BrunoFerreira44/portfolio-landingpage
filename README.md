@@ -1,6 +1,8 @@
 # ☕ Bruno Ferreira — Portfólio
 
-Portfólio profissional desenvolvido com **HTML, CSS e JavaScript puro**. Sem frameworks e com design responsivo.
+Portfólio profissional desenvolvido com **HTML, CSS e JavaScript puro**. Sem frameworks e com design responsivo, paleta de cores **preto e verde**.
+
+> 🌐 **Deploy:** hospedado na **Azure Static Web Apps** — acesse em **[bfer.dev](https://www.bfer.dev/)**
 
 ---
 
@@ -30,9 +32,20 @@ PortfolioWeb/
 
 ---
 
-## 🚀 Como rodar
+## 🚀 Como rodar localmente
 
 Basta abrir o arquivo `index.html` no navegador. Não há dependências, build ou instalação necessária.
+
+---
+
+## ☁️ Deploy — Azure Static Web Apps
+
+O projeto está publicado utilizando o serviço **[Azure Static Web Apps](https://azure.microsoft.com/pt-br/products/app-service/static)**, que oferece:
+
+- Hospedagem gratuita para sites estáticos
+- Deploy automático integrado ao GitHub
+- HTTPS habilitado por padrão
+- CDN global para entrega rápida do conteúdo
 
 ---
 
@@ -41,6 +54,7 @@ Basta abrir o arquivo `index.html` no navegador. Não há dependências, build o
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 
 ---
 

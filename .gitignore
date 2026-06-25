@@ -1,0 +1,10 @@
+# IntelliJ IDEA / JetBrains IDEs
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
